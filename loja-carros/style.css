@@ -1,24 +1,49 @@
 html{
-    background: black;
+    background: #111;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h2{
     display: inline;
 }
 
-.valor{
+p{
+    margin: 10px 0;
+}
+
+section{
+    margin-bottom: 60px;
+}
+
+.valor, h1{
     color: white;
+    font-weight: bold;
 }
 
 .valor-R{
-    color: yellow;
-    
+    color: #febe01;
+    font-weight: bold;
 }
 
-.carro{
-    color: gray;
+.marca, .ano-escrito, .motor, .cambio, .kms{
+    color: #b2b2b2;
+    display: inline;
+    padding: 0px;
 }
 
-.nome{
-    color: yellow;
+.nome, .ano-numero, .motor-num, .cambio-tipo, .kms-numero{
+    color: #febe01;
+    display: inline-block;
+    padding: 0;
+}
+
+.proposta{
+    border: 1px solid #febe01;
+    background: #febe01;
+    color: #332200;
+    font-weight: bold;
+    width: 120px;
+    text-align: center;
+    border-radius: 4px;
+    padding: 8px;
 }
